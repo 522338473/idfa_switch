@@ -4,5 +4,7 @@ from django.test import TestCase
 
 
 
-print("hello world!")
+from urllib.parse import quote
+url = "http://www.baidu.com"
+print(quote(url))
 
